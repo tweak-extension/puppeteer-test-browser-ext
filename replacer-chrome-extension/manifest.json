@@ -1,0 +1,17 @@
+{
+  "name": "Text Replacer Extension",
+  "description": "Replaces text, that's all",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; worker-src 'self'"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://*/", "https://*/"]
+}
