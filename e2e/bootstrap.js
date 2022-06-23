@@ -17,7 +17,7 @@ async function bootstrap(options = {}) {
 
   const targets = await browser.targets();
   const extensionTarget = targets.find(target => target.type() === 'service_worker');
-  const partialExtensionUrl = extensionTarget._targetInfo.url || '';
+  const partialExtensionUrl = extensionTarget.url() || '';
   const [, , extensionId] = partialExtensionUrl.split('/');
 
   const extPage = await browser.newPage();
