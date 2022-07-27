@@ -16,3 +16,4 @@ This is a complete example on how to test a chrome extension with Puppeteer. Thi
 
 * [5 Tips for Effective Puppeteer Automation](https://tweak-extension.com/blog/best-puppeteer-tips)
 * [How to Simulate HTTP Request Errors](https://tweak-extension.com/blog/how-to-simulate-error-http-request)
+* [The Different Shades of Testing Web Apps: Aiming for Balance](https://tweak-extension.com/blog/web-application-testing)
