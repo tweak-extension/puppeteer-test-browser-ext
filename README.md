@@ -14,6 +14,6 @@
 
 ## 📚 Other Interesting Blogposts
 
-* [5 Tips for Effective Puppeteer Automation](https://tweak-extension.com/blog/best-puppeteer-tips)
+* [What a Google Search Can't Tell You About These JS Testing Frameworks](https://tweak-extension.com/blog/comparison-e2e-javascript-testing-frameworks)
 * [How to Simulate HTTP Request Errors](https://tweak-extension.com/blog/how-to-simulate-error-http-request)
 * [The Different Shades of Testing Web Apps: Aiming for Balance](https://tweak-extension.com/blog/web-application-testing)
