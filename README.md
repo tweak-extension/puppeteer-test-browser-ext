@@ -8,9 +8,10 @@
 
 ## 🔎 Instructions
 
+1. Even tough you're going to install Puppeteer make sure you have chromium - https://www.chromium.org/getting-involved/download-chromium/.
 1. `npm install` to install the dependencies.
-2. `npm start` to run the react app, must be running since it is the base for the e2e tests.
-3. `npm run e2e` to run the e2e tests.
+1. `npm start` to run the react app, must be running since it is the base for the e2e tests.
+1. `npm run e2e` to run the e2e tests.
 
 ## 📚 Other Interesting Blogposts
 
