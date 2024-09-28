@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider node scripts/start.js",
     "e2e": "jest --detectOpenHandles"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "@babel/core": "7.12.3",
@@ -75,7 +78,8 @@
     ]
   },
   "devDependencies": {
-    "puppeteer": "^10.4.0"
+    "puppeteer": "^18.2.1",
+    "puppeteer-core": "^18.2.1"
   },
   "babel": {
     "presets": [
